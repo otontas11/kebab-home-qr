@@ -13,12 +13,22 @@ hr {
 }
 
 .thumbnail {
+    padding: initial !important;
     margin-bottom:6px;
     display:flex;
     flex-wrap: wrap;
+    border: initial !important;
 }
-
-
+.modal-dialog {
+    top: 50px;
+    
+}
+.modal-body{
+    padding: 8px !important;
+}
+img{
+    border-radius: 8px !important;
+}
 .blur {
     transform: scale(0.9);
     opacity: 0.6;
