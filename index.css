@@ -23,6 +23,14 @@ hr {
     top: 50px;
     
 }
+.close{
+    font-size: 25px !important;
+}
+.modal-header {
+    padding: 8px 15px 10px 15px !important;
+    border-top: 1px solid #e5e5e5 !important;
+    border-bottom: initial !important;
+}
 .modal-body{
     padding: 8px !important;
 }
