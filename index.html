@@ -2,14 +2,14 @@
 
 <head>
     <title>Photo Gallery</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500i,700,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
-    <link rel="stylesheet" type="text/css"
-        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        crossorigin="anonymous">
+          crossorigin="anonymous">
+
 
 
     <link rel="stylesheet" type="text/css" href="index.css">
@@ -19,91 +19,122 @@
 <body>
 
 
-    <div class="container">
 
-        <div class="row  ">
-
-
-            <div class="col-lg-4 col-12">
-                <div class="thumbnail img-responsive">
-                    <a href="#" title="Image 1"><img src="./Slide1.png"></a>
-                </div>
-            </div>
-
-
-
-            <div class="col-lg-4 col-12">
-                <div class="thumbnail img-responsive">
-                    <a href="#" title="Image 1"><img src="./Slide2.png"></a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-12">
-                <div class="thumbnail img-responsive">
-                    <a href="#" title="Image 1"><img src="./Slide3.png"></a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-12">
-                <div class="thumbnail img-responsive">
-                    <a href="#" title="Image 1"><img src="./Slide4.png"></a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-12">
-                <div class="thumbnail img-responsive">
-                    <a href="#" title="Image 1"><img src="./Slide5.png"></a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-12">
-                <div class="thumbnail img-responsive">
-                    <a href="#" title="Image 1"><img src="./Slide6.png"></a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-12">
-                <div class="thumbnail img-responsive">
-                    <a href="#" title="Image 1"><img src="./Slide7.png"></a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-12">
-                <div class="thumbnail img-responsive">
-                    <a href="#" title="Image 1"><img src="./Slide8.png"></a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-12">
-                <div class="thumbnail img-responsive">
-                    <a href="#" title="Image 1"><img src="./Slide9.png"></a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-12">
-                <div class="thumbnail img-responsive">
-                    <a href="#" title="Image 1"><img src="./Slide10.png"></a>
-                </div>
-            </div>
-
+<div class="container">
+    <div class="row top-title">
+        <div class="col-12  top-title-text">
+            <p class="grill">Ali Baba Kebab Haus</p>
         </div>
-    </div>
-    <div id="modal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
 
-                <div class="modal-body">
-                </div>
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
-                </div>
-            </div>
+    </div>
+
+    <div class="row kebab-imgs">
+        <div class="col-12">
+            <ul class="switcher">
+                <li data-cat=".all" class="active ">Tous les Menus</li>
+                <li data-cat=".Sandwich">Sandwich</li>
+                <li data-cat=".Grillades">Grillades</li>
+                <li data-cat=".Classique">Classique</li>
+
+                <li data-cat=".Pizzas">Pizza</li>
+                <li data-cat=".Pides">Pide</li>
+                <li data-cat=".boissons">Boisson</li>
+                <li data-cat=".Poulets">Poulet speciaux</li>
+                <li data-cat=".Accompagnements">Accompagnements</li>
+
+                <li data-cat=".Desserts">Desserts</li>
+
+
+
+
+
+
+            </ul>
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+    <div class="row  ">
+        <div class="col-lg-4 col-12">
+            <div class="thumbnail img-responsive  ">
+                <a href="#" title="Image 1"><img class="Sandwich all" src="./Slide9.png"></a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-12">
+            <div class="thumbnail img-responsive  ">
+                <a href="#" title="Image 1"><img class="Grillades all" src="./Slide6.png"></a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-12">
+            <div class="thumbnail img-responsive  ">
+                <a href="#" title="Image 1"><img class="Classique all" src="./Slide7.png"></a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-12">
+            <div class="thumbnail img-responsive  ">
+                <a href="#" title="Image 1"><img class="Pizzas all" src="./Slide4.png"></a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-12">
+            <div class="thumbnail img-responsive  ">
+                <a href="#" title="Image 1"><img class="Pizzas all" src="./Slide5.png"></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-12">
+            <div class="thumbnail img-responsive  ">
+                <a href="#" title="Image 1"><img class="Pides all" src="./Slide10.png"></a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-12">
+            <div class="thumbnail img-responsive  ">
+                <a href="#" title="Image 1"><img class="Poulets all" src="./Slide3.png"></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-1">
+            <div class="thumbnail img-responsive  ">
+                <a href="#" title="Image 1"><img class="boissons all" src="./Slide1.png"></a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-1">
+            <div class="thumbnail img-responsive ">
+                <a href="#" title="Image 1"><img class="Accompagnements all" src="./Slide2.png"></a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-12">
+            <div class="thumbnail img-responsive  ">
+                <a href="#" title="Image 1"><img class="Desserts all" src="./Slide8.png"></a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <p class="blurOut">Ali Baba Kebab Haus</p>
+
+</div>
+
+<div id="modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-body">
+            </div>
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
