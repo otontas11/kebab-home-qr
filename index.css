@@ -6,9 +6,11 @@
     color: #000000;
     line-height: 1.9;
 
+} 
+p{
+    margin: initial;
 }
-
-
+ 
 
 .container h1 {
     font-family: 'Raleway';
@@ -17,6 +19,7 @@
     letter-spacing: -1px;
     font-size: 50px;
 }
+
 hr {
     border: 0;
     height: 3px;
@@ -69,9 +72,7 @@ footer {
     color: rgb(0, 0, 0);
     max-width: 100%;
     margin-top: auto;
-}
-
-
+} 
 .footer-icons {
     text-align: center;
     font-size: 20px;
@@ -81,8 +82,7 @@ footer {
     justify-content: space-around;
     position: relative;
     margin-top: 15px;
-}
-
+} 
 .footer-bottom {
     text-align: center;
     color: white;
@@ -102,8 +102,7 @@ a:visited, a:focus{
 
 footer a:hover {
     color: rgba(255, 255, 255, 0.6);
-}
-
+} 
 .switcher {
     margin: 0 auto;
     display: flex;
@@ -112,8 +111,7 @@ footer a:hover {
     list-style: none;
     width: fit-content;
     padding: 14px 20px;
-}
-
+} 
 .switcher li {
     border-radius: 4px;
     padding: 2px 12px;
@@ -176,21 +174,39 @@ footer a:hover {
 
 .top-title{
     text-transform: uppercase;
-    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    background: linear-gradient(to right, rgba(139, 159, 232, 1) 0%, rgba(170, 73, 180, 1) 100%);
     position: fixed;
     width: 100%;
     z-index: 2;
+    animation: gradient 15s ease infinite;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
 .kebab-imgs{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .top-title-text{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     font-weight: bolder;
     color: white
+}
+.logo{
+width: 80px;
+display: block !important;
 }
 .grill, .phone{
     color: white;
